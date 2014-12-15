@@ -72,3 +72,5 @@ cores material="obsidian" leak="10">
         <cuboid min="-41,85,23" max="-36,92,30"/>
     </core>
 </cores>
+<maxbuildheight>50</maxbuildheight>
+</map>
