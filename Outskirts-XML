@@ -12,15 +12,15 @@
     <contributor contribution="Map Name & Feedback">_ApplePies_</contributor>
 </contributors>
 <teams>
-    <team color="LIGHT_PURPLE" max="16">Pink Team</team>
-    <team color="YELLOW" max="24">Yellow Team</team>
+    <team color="light purple" max="16" overfill="20">Pink Team</team>
+    <team color="yellow" max="16" overfill="20">Yellow Team</team>
 </teams>
 <kits>
     <kit name="spawn" force="true">
         <item slot="0">stone sword</item>
         <item slot="1" enchantment="arrow infinite:1">bow</item>
         <item slot="28">arrow</item>
-        <item slot="2" enchantment="durability:3;dig speed:1">iron pickaxe</item>
+        <item slot="2">diamond pickaxe</item>
         <item slot="3">iron axe</item>
         <item slot="4" amount="32">steak</item>
         <item slot="5" amount="32">glass</item>
@@ -54,11 +54,11 @@
     <item>iron pickaxe</item>
 </itemremove>
 <spawns>
-    <spawn team="pink" yaw="270" kit="pink">
-        <cuboid min="4.5,91,-34" max="7.5,91,-31"/>
+    <spawn team="pink" yaw="179" kit="pink">
+        <cuboid min="47.5,30,0" max="51.5,30,-4"/>
     </spawn>
-    <spawn team="yellow" yaw="90" kit="yellow">
-        <cuboid min="-30.5,91,-34" max="-27.5,91,-31"/>
+    <spawn team="yellow" yaw="-1" kit="yellow">
+        <cuboid min="-45.5,30,-129" max="-49.5,30,-133"/>
     </spawn>
     <default yaw="180">
         <cylinder base="-11.5,90,-33" radius="3" height="0"/>
@@ -68,9 +68,15 @@ cores material="obsidian" leak="10">
     <core team="pink">
         <cuboid min="13,85,23" max="18,92,30"/>
     </core>
+    <core team="pink">
+        <cuboid min="13,85,23" max="18,92,30"/>
+    </core>
+    <core team="yellow">
+        <cuboid min="-41,85,23" max="-36,92,30"/>
+    </core>
     <core team="yellow">
         <cuboid min="-41,85,23" max="-36,92,30"/>
     </core>
 </cores>
-<maxbuildheight>50</maxbuildheight>
+<maxbuildheight>55</maxbuildheight>
 </map>
