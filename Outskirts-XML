@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<map proto="1.3.6">
+<name>Outskirts</name>
+<version>1.0.0</version>
+<objective>Leak lava from the enemy's obsidian cores.</objective>
+<authors>
+ <author>xX_IGNA_Xx & Actionjdog</author>
+</authors>
+<contributors>
+    <contributor contribution="Feedback & Map Design">Chickolympics</contributor>
+    <contributor contribution="Host & Feedback">ShinyDialga45</contributor>
+    <contributor contribution="Map Name & Feedback">_ApplePies_</contributor>
+</contributors>
+<teams>
+    <team color="LIGHT_PURPLE" max="16">Pink Team</team>
+    <team color="YELLOW" max="24">Yellow Team</team>
+</teams>
+<kits>
+    <kit name="spawn" force="true">
+        <item slot="0">stone sword</item>
+        <item slot="1" enchantment="arrow infinite:1">bow</item>
+        <item slot="28">arrow</item>
+        <item slot="2" enchantment="durability:3;dig speed:1">iron pickaxe</item>
+        <item slot="3">iron axe</item>
+        <item slot="4" amount="32">steak</item>
+        <item slot="5" amount="32">glass</item>
+        <item slot="6" amount="32">oak wood</item>
+        </kit>
+    <kit name="yellow" parents="spawn">
+        <chestplate color="E5E533" enchantment="protection projectile:1">leather chestplate</chestplate>
+        <boots color="E5E533" enchantment="protection fall:1">leather boots</boots>
+    </kit>
+    <kit name="pink" parents="spawn">
+        <chestplate color="F27FA5" enchantment="protection projectile:1">leather chestplate</chestplate>
+        <boots color="F27FA5" enchantment="protection fall:1">leather boots</boots>
+        
+    </kit>
+</kits>
+<toolrepair>
+    <tool>stone sword</tool>
+    <tool>bow</tool>
+    <tool>diamond pickaxe</tool>
+    <tool>iron axe</tool>
+    <tool>arrow</tool>
+</toolrepair>
+<itemremove>
+    <item>leather boots</item>
+    <item>leather chestplate</item>
+    <item>obsidian</item>
+    <item>leaves</item>
+    <item>sugar cane</item>
+    <item>oak wood</item>
+    <item>steak</item>
+    <item>iron pickaxe</item>
+</itemremove>
+<spawns>
+    <spawn team="pink" yaw="270" kit="pink">
+        <cuboid min="4.5,91,-34" max="7.5,91,-31"/>
+    </spawn>
+    <spawn team="yellow" yaw="90" kit="yellow">
+        <cuboid min="-30.5,91,-34" max="-27.5,91,-31"/>
+    </spawn>
+    <default yaw="180">
+        <cylinder base="-11.5,90,-33" radius="3" height="0"/>
+    </default>
+</spawns>
+cores material="obsidian" leak="10">
+    <core team="pink">
+        <cuboid min="13,85,23" max="18,92,30"/>
+    </core>
+    <core team="yellow">
+        <cuboid min="-41,85,23" max="-36,92,30"/>
+    </core>
+</cores>
