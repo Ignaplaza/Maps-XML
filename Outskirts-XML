@@ -4,7 +4,8 @@
 <version>1.0.0</version>
 <objective>Leak lava from the enemy's obsidian cores.</objective>
 <authors>
- <author>xX_IGNA_Xx & Actionjdog</author>
+ <author>xX_IGNA_Xx</author>
+ <author>Actionjdog</author>
 </authors>
 <contributors>
     <contributor contribution="Feedback & Map Design">Chickolympics</contributor>
@@ -22,9 +23,9 @@
         <item slot="28">arrow</item>
         <item slot="2">diamond pickaxe</item>
         <item slot="3">iron axe</item>
-        <item slot="4" amount="32">steak</item>
+        <item slot="4" amount="32"cooked beef</item>
         <item slot="5" amount="32">glass</item>
-        <item slot="6" amount="32">oak wood</item>
+        <item slot="6" amount="32">wood</item>
         </kit>
     <kit name="yellow" parents="spawn">
         <chestplate color="E5E533" enchantment="protection projectile:1">leather chestplate</chestplate>
@@ -33,7 +34,6 @@
     <kit name="pink" parents="spawn">
         <chestplate color="F27FA5" enchantment="protection projectile:1">leather chestplate</chestplate>
         <boots color="F27FA5" enchantment="protection fall:1">leather boots</boots>
-        
     </kit>
 </kits>
 <toolrepair>
