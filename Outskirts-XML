@@ -61,21 +61,21 @@
         <cuboid min="-45.5,30,-129" max="-49.5,30,-133"/>
     </spawn>
     <default yaw="180">
-        <cylinder base="-11.5,90,-33" radius="3" height="0"/>
+        <cylinder base="7.5,82,-65" radius="3" height="0"/>
     </default>
 </spawns>
 cores material="obsidian" leak="10">
     <core team="pink">
-        <cuboid min="13,85,23" max="18,92,30"/>
+        <cuboid min="10,38,-1" max="6,43,2"/>
     </core>
     <core team="pink">
-        <cuboid min="13,85,23" max="18,92,30"/>
+        <cuboid min="-42,48,-36" max="-46,53,-32"/>
     </core>
     <core team="yellow">
-        <cuboid min="-41,85,23" max="-36,92,30"/>
+        <cuboid min="-8,38,-127" max="-4,43,-131"/>
     </core>
     <core team="yellow">
-        <cuboid min="-41,85,23" max="-36,92,30"/>
+        <cuboid min="45,48,-92" max="49,53,-96"/>
     </core>
 </cores>
 <maxbuildheight>55</maxbuildheight>
