@@ -49,9 +49,8 @@
     <item>obsidian</item>
     <item>leaves</item>
     <item>sugar cane</item>
-    <item>oak wood</item>
-    <item>steak</item>
-    <item>iron pickaxe</item>
+    <item>wood</item>
+    <item>cooked beef</item>
 </itemremove>
 <spawns>
     <spawn team="pink" yaw="179" kit="pink">
